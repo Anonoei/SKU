@@ -1,14 +1,15 @@
 # Product Descriptors
 
 # Table of Contents
- - C: Clothing
- - A: Accessories
- - D: Digital Goods
+- [Product Descriptors](#product-descriptors)
+- [Table of Contents](#table-of-contents)
+  - [Clothing](#clothing)
+  - [Accessories](#accessories)
 
-## C: Clothing 
+## Clothing
 Pattern: [C-<`Sex`><`Conditions`>-<`Category`><`Type`><`Subtype (0)`>-<`(R##)`><`(D##)`>]
 
-Example: C-UC-TH0-R01D01
+Example: `C-UC-TH0-R01D01`
  - U: Unisex
  - F: Female
  - M: Male
@@ -22,12 +23,15 @@ Example: C-UC-TH0-R01D01
      - T: Tops
        - B: Blouse
        - C: Crop Top
-       - T: T-shirt
+       - T: T-shirt / short sleeve shirt
+         - A: Activewear
        - L: Long-sleeve shirt
        - S: Sweater
        - H: Hoodie
          - Z: Zip-up
        - A: Tank Top
+       - J: Jacket
+         - W: Windbreaker
      - B: Bottoms
        - P: Pants
        - S: Shorts
@@ -36,10 +40,10 @@ Example: C-UC-TH0-R01D01
      - F: Footwear
      - A: Activewear
 
-## A: Accessories
+## Accessories
 Pattern: [A-<`Category`><`Type`><`Subtype (0)`>-<`(R##)`><`(D##)`>]
 
-Example: A-DM0-R01D01
+Example: `A-DM0-R01D01`
  - H: Home
  - D: Desk
    - M: Mousepad
